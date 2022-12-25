@@ -1,0 +1,124 @@
+.homepagewrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.bg-color{
+  
+  background-color: #0d1117;
+}
+/* .inputboxedit{
+  height: 45vh;
+} */
+.spani{
+  font-weight: bolder;
+  color: rgb(13, 239, 96);
+  /* font-size: 20px; */
+}
+.ggi{
+  height: 45vh;
+  /* background-color: antiquewhite; */
+}
+.policy{
+  position: fixed;
+  right: 51vw;
+}
+.editorgp{
+  height: 90.5vh;
+}
+.styled{
+  text-decoration: none;
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+  margin-top: 5px;
+  /* max-resolution: 0 auto; */
+}
+#uniqueto{
+  display: none;
+}
+.deletebuttn{
+  height: 4vh;
+}
+.deletebuttn:hover + #Delete{
+  display: unset;
+}
+.editbutton{
+  width: 35px;
+  height: 35px;
+}
+
+.editbutton:hover + #uniqueto{ display: unset ;}
+.editorpagewrapper{
+  overflow: hidden;
+}
+.formwrapper{
+  background-color: rgb(75, 65, 65);
+  /* background-color: rgb(173, 140, 140); */
+  padding: 20px;
+  border-radius: 13px;
+  width: 23vw;
+}
+.logo{
+  margin-left: 0 auto ;
+  height: 13vh;
+  width: 20vw;
+} 
+footer{
+  position: fixed;
+  bottom: 0;
+}
+.inputgroup{
+  display: flex;
+  flex-direction: column;
+}
+.inputbox{
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#one{
+  text-align: center;
+  margin-top: 0;
+}
+.my{
+  font-weight: bold;
+}
+.loginbutton{
+  color: white;
+  background-color: rgb(73, 132, 204); 
+  width: 100px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.loginbutton:hover{
+  background-color: rgb(14, 108, 222); ; 
+}
+.logininfo{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.mx{
+  margin-top: 10px;
+  text-decoration: none;
+}
